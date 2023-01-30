@@ -157,9 +157,19 @@ body {
 }
 
 .attribution {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
   font-size: 11px;
-  text-align: center;
+  background-color: rgba(0, 0, 0, .2);
 }
+
+.attribution p {
+  margin: auto;
+}
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
